@@ -41,9 +41,9 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: bookstore
-      MYSQL_USER: appuser
-      MYSQL_PASSWORD: appuser123
+      MYSQL_DATABASE: mydb1
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: Admin1234
 
   proxy:
     image: "traefik:v2.1.2"
