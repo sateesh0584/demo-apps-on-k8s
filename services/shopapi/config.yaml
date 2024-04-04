@@ -5,8 +5,8 @@ metadata:
   name: shopapi-cm
 
 data:
-  DB_HOST: bookstore-mysql
-  DB_NAME: bookstore
-  DB_USER: appuser
+  DB_HOST: mydb1.cj0xd5qbiilr.ap-south-1.rds.amazonaws.com
+  DB_NAME: mydb1
+  DB_USER: admin
   RAILS_ENV: production
   RAILS_LOG_TO_STDOUT: "1"
