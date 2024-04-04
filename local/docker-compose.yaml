@@ -23,10 +23,10 @@ services:
   shopapi:
     image: devteds/demo-bookstore-shopapi:1.0
     environment:
-      DB_HOST: db
-      DB_NAME: bookstore
-      DB_USER: appuser
-      DB_PASSWORD: appuser123
+      DB_HOST: mydb1.cj0xd5qbiilr.ap-south-1.rds.amazonaws.com
+      DB_NAME: mydb1
+      DB_USER: admin
+      DB_PASSWORD: Admin1234
       RAILS_ENV: production
       RAILS_LOG_TO_STDOUT: "1"
     # ports:
